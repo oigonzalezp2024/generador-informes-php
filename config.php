@@ -68,56 +68,52 @@ return [
     // columnas del Excel y las claves del array de datos ($registro).
     'campos_datos_tabla' => [
         [
-            'header_text' => 'Proveedor',
+            'header_text' => 'id_limpio',
+            'data_key' => 'id_limpio',
+        ],
+        [
+            'header_text' => 'proveedor',
             'data_key' => 'proveedor'
         ],
         [
-            'header_text' => 'Nombre Operario',
-            'data_key' => 'nombreOperario'
+            'header_text' => 'servicio',
+            'data_key' => 'servicio'
         ],
         [
-            'header_text' => 'Bodega',
-            'data_key' => 'bodega'
+            'header_text' => 'producto',
+            'data_key' => 'producto'
         ],
         [
-            'header_text' => 'Nombre Producto',
-            'data_key' => 'nombreProducto'
+            'header_text' => 'cantidad',
+            'data_key' => 'cantidad'
         ],
         [
-            'header_text' => 'Cantidad Asignada',
-            'data_key' => 'cantidadAsignada'
+            'header_text' => 'fecha_creacion',
+            'data_key' => 'fecha_creacion'
         ],
         [
-            'header_text' => 'Cantidad Entregada',
-            'data_key' => 'cantidadEntregada'
+            'header_text' => 'fecha_modificacion',
+            'data_key' => 'fecha_modificacion'
         ],
         [
-            'header_text' => 'Cantidad Faltante',
-            'data_key' => 'cantidadFaltante'
-        ],
-        [
-            'header_text' => 'Merma',
-            'data_key' => 'merma'
-        ],
-        [
-            'header_text' => 'Observaciones',
-            'data_key' => 'observaciones'
-        ],
-        [
-            'header_text' => 'Fecha Revisión',
-            'data_key' => 'fechaRevision'
-        ],
-        [
-            'header_text' => 'Cantidad Procesada',
-            'data_key' => 'cantidadProcesada'
-        ],
-        [
-            'header_text' => 'Responsable',
-            'data_key' => 'responsable'
+            'header_text' => 'usuario',
+            'data_key' => 'usuario'
         ],
     ],
     // Configuración para el pie de página.
     'pie_de_pagina' => [
         'texto' => '&L&"Arial"&9Informe Generado el &D&"Arial"&9 &R&"Arial"&9Página &P de &N',
     ],
+    'data' => [
+        [
+            'id_limpio' => 1,
+            'proveedor' => 'Oscar Gonzalezzzzz',
+            'servicio' => 'lavado',
+            'producto' => 'Color',
+            'cantidad' => '1000',
+            'fecha_creacion' => '2020-05-05',
+            'fecha_modificacion' => '2020-05-06',
+            'usuario' => 'Oscar Gonzalez'
+        ],
+    ]
 ];
